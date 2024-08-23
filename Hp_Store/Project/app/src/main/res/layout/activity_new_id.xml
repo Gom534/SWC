@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewId">
+
+    <EditText
+        android:id="@+id/idTextView"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_box"
+        android:ems="10"
+        android:fontFamily="@font/laundry"
+        android:gravity="center"
+        android:hint="ex) abcd@gmail.com"
+        android:inputType="textEmailAddress"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/yesBtn"
+        app:layout_constraintStart_toStartOf="@+id/placeNameTextView"
+        app:layout_constraintTop_toBottomOf="@+id/placeNameTextView"
+        app:layout_constraintVertical_bias="0.109" />
+
+
+    <EditText
+        android:id="@+id/passwordTextView"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_box"
+        android:ems="10"
+        android:fontFamily="@font/laundry"
+        android:gravity="center"
+        android:hint="비밀번호(영문포함 6자리)"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/passwordTextView2"
+        app:layout_constraintStart_toStartOf="@+id/idTextView"
+        app:layout_constraintTop_toBottomOf="@+id/idTextView"
+        app:layout_constraintVertical_bias="0.544" />
+
+    <EditText
+        android:id="@+id/passwordTextView2"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_box"
+        android:ems="10"
+        android:fontFamily="@font/laundry"
+        android:gravity="center"
+        android:hint="비밀번호 재확인"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/storeNameTextView"
+        app:layout_constraintStart_toStartOf="@+id/idTextView"
+        app:layout_constraintTop_toBottomOf="@+id/idTextView"
+        app:layout_constraintVertical_bias="0.758" />
+
+    <EditText
+        android:id="@+id/placeNameTextView"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="264dp"
+        android:ems="10"
+        android:fontFamily="@font/laundry"
+        android:gravity="center"
+        android:hint="휴게소명을 선택하세요"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268"
+        android:background="@drawable/text_box"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/storeNameTextView"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:fontFamily="@font/laundry"
+        android:hint="가게명을 입력하시오"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/yesBtn"
+        app:layout_constraintStart_toStartOf="@+id/idTextView"
+        app:layout_constraintTop_toBottomOf="@+id/idTextView"
+        app:layout_constraintVertical_bias="0.699"
+        android:background="@drawable/text_box"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/yesBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793"
+        android:fontFamily="@font/laundry"/>
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="취소"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yesBtn"
+        app:layout_constraintVertical_bias="0.311"
+        android:fontFamily="@font/laundry"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
