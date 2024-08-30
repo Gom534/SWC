@@ -32,7 +32,7 @@
 
 ---
 
-![버전1.png](C:\Users\admin\Desktop\이정우\버전1.png)
+![버전1.png](.\이정우\버전1.png)
 
 
 
@@ -40,7 +40,7 @@
 
 ---
 
-![버전2.png](C:\Users\admin\Desktop\이정우\버전2.png)
+![버전2.png](.\버전2.png)
 
 
 
@@ -94,7 +94,7 @@
 
 ---
 
-<img src="file:///C:/Users/admin/AppData/Roaming/marktext/images/2024-08-27-14-53-34-image.png" title="" alt="" width="429">
+<img src="file:///./2024-08-27-14-53-34-image.png" title="" alt="" width="429">
 
 ### Trouble Shooting
 
